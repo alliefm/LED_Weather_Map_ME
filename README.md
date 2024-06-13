@@ -18,8 +18,8 @@ The Map comes with a [mounting kit](https://amzn.to/4bOnr7P) that you can use to
 When you first power on the Map, you will need to connect it to your WiFi. Once it is plugged in to power, use your smartphone to set the WiFi up.
 
 1. Open the WiFi Settings on your smartphone and scan for networks. Look for a network called "LEDWeatherMap" can click on it.
-1. A screen should open on your phone with a couple of blue buttons. Click the first button titled "Configure WiFi".
-1. On the next screen that appears, the WiFi networks in range will appear. Click the one you want to use, eneter the password and click "Save".
+1. A screen should open on your phone with a couple of blue buttons. Click the first button titled "Configure WiFi" (or "Configuration" for some devices).
+1. On the next screen that appears, the WiFi networks in range will appear. Click the one you want to use, enter the password and click "Save".
 1. Your Map will automatically reboot and attempt to connect to that WiFi network. If it works you should very quickly see the LEDs start to illuminate.
 1. If it does not work, go back to step one and try again.
 
