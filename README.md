@@ -26,7 +26,7 @@ When you first power on the Map, you will need to connect it to your WiFi. Once 
 <img src="https://www.martyncurrey.com/wp-content/uploads/2017/10/ESP8266_wifiManager_002.png" width="800">
 
 ## Usage
-When connected to the intrernet, the Map will cycle through each LED and set the color value. The initial LEDs are automatically set to the color corresponding to the Key/Legend.  The other LEDs will each light up the color corresponding to the weather data retrieved from Aviation Weather.
+When connected to the internet, the Map will cycle through each LED and set the color value. The initial LEDs are automatically set to the color corresponding to the Key/Legend.  The other LEDs will each light up the color corresponding to the weather data retrieved from Aviation Weather.
 It takes about 1-2 minutes to complete all of the LEDs.  Once the LEDs are lit, the Map will wait for about 5 minutes before cycling through them and updating as needed based on changing weather conditions.
 
 NOTE: Sometimes Aviation Weather will not return the weather for an airport. When this happens the LED will turn off. If you see off LEDs, just wait a few minutes, as typically Aviation Weather will provide the weather for that airport again eventually.
@@ -39,7 +39,7 @@ You can always go to [metars.com](https://metars.com) to check the status of the
 The Map uses an "Internet-of-Things" development board called a [Wemos d1 Mini](https://amzn.to/3VbZ6mU). This can be connected to your computer via a USB-C cable to update the embedded software. 
 The software consists of TWO files:
 * LED_Sectional_ME.ino
-* airports50PWMTAV.h
+* airports50PWMTAC.h
 
 The first file contains the program that the Map uses to connect to the internet and retreieve the weather info. The second file contains the information about the Map: how many LEDs are installed and which airports have LEDs. 
 
